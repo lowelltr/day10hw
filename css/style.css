@@ -1,0 +1,53 @@
+body{
+    background: url(https://lms.grandcircus.co/pluginfile.php/4450/mod_label/intro/addressbg.jpg), linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    background-blend-mode: overlay;
+    background-size: cover;
+    font-family: 'Maven Pro', sans-serif;
+    text-decoration: none;
+}
+section{
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    background-color: rgb(179,178,176, 0.6);
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 5px;
+}
+input{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+div{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    
+    
+}
+.contact{display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding:0;
+    border:10px;
+    width: 300px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 5px;
+}
+    
+
+li{display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    margin: 10px;
+}
+h1{
+    color: white;
+}
